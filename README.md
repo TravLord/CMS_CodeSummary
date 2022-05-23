@@ -1,1 +1,11 @@
-# VertigoTheatreCMS_CodeSummary
+# VertigoTheatreCMS_CodeSummary![LiveProject2CreatePgBefore](https://user-images.githubusercontent.com/92835555/169738489-65040c0f-697a-4963-9087-a136ed5e3191.PNG)
+![LiveProject2CreatepgAfter](https://user-images.githubusercontent.com/92835555/169738498-372ce1d9-0e77-4465-99da-fd2ecc284636.PNG)
+![LiveProject2EditAfter](https://user-images.githubusercontent.com/92835555/169738507-6b0e71ee-4f40-4680-b0e1-6c0b44e4e901.PNG)
+![LiveProject2EditPgBefore](https://user-images.githubusercontent.com/92835555/169738513-f0ac2dc4-5fb2-406e-a908-76d55382d38c.PNG)
+![LiveProjectIndexBefore](https://user-images.githubusercontent.com/92835555/169738524-19cdc478-6e8a-4f5c-a6d1-55efb7a4ace6.PNG)
+![IndexAfter](https://user-images.githubusercontent.com/92835555/169740203-a1481ec7-3940-43bf-b1b1-d2ca82827860.PNG)
+![IndexSearch](https://user-images.githubusercontent.com/92835555/169740210-3f8471ee-45ab-4528-ac97-d0e45e9d1500.PNG)
+![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
+![ControllerIndex](https://user-images.githubusercontent.com/92835555/169740532-33a27e75-2064-4d34-9275-0e8f219449d4.PNG)
+![ControllerCreate](https://user-images.githubusercontent.com/92835555/169740541-c0b89b9c-cb83-4641-85c2-44c5ee4eb435.PNG)
+![TextHelpersMethods](https://user-images.githubusercontent.com/92835555/169740559-f17006d8-9b48-456e-9d19-c84b6eb08120.PNG)
