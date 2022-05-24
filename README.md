@@ -18,33 +18,40 @@
 - 
 ![ModelLiveProject2](https://user-images.githubusercontent.com/92835555/169889776-ccb315d2-5ebf-45b3-b4ac-8a2837c11905.PNG)
 
-### User Story 3. * CRUD pages update create and edit pages with styling updates
+### User Story 3. *CRUD pages update create and edit pages with styling updates*
 
 - For this story I was tasked with updating the create and edit pages with styling updates to match the layout of the entire web app layout.  I updated these pages and changed the links into buttons for easy user navigation back to index page or to confirm/submit the form.  I also had to add a file based input to give user ability to choose a image file to add to their database from their machine. 
-- 
-![LiveProject2CreatePgBefore](https://user-images.githubusercontent.com/92835555/169738489-65040c0f-697a-4963-9087-a136ed5e3191.PNG)
 
-Create page before update (above)
 Create page after update (below)
 
 ![CreateAfterUpdatesLP2](https://user-images.githubusercontent.com/92835555/169926934-e8ef67ed-739c-4203-835b-f04d0f724bfc.PNG)
 
-![LiveProject2EditPgBefore](https://user-images.githubusercontent.com/92835555/169738513-f0ac2dc4-5fb2-406e-a908-76d55382d38c.PNG)
-Edit page before update (above)
 Edit page after update (below)
 ![EditUpdateLP2](https://user-images.githubusercontent.com/92835555/169928899-f9d4babf-33c7-496a-ba62-5f13c6a251b9.PNG)
 
-### User Story 4. *Photo Image storage and retrieval
+### User Story 4. *Photo Image storage and retrieval*
 
 -  I was tasked to give the user ability to store and display the images they upload to their database.
 -  For this I had to update the controller to take in and store images to the database.  All of these results were then displayed on the index page.  This required storing the image as a byte[] in the database.  Within the create method I utilized HttpPostedFileBase class to take in the user file as a parameter from the create form and used the binary reader class to produce a byte[] for storage to database.  For display on the index page the byte[] then had to be converted into a 64base string and combined in the img tag.  Index to display results (below without styling)
+-  
 ![LiveProjectIndexBefore](https://user-images.githubusercontent.com/92835555/169738524-19cdc478-6e8a-4f5c-a6d1-55efb7a4ace6.PNG)
+
 - Controller create method (modified below)
 ![ControllerCreate](https://user-images.githubusercontent.com/92835555/169740541-c0b89b9c-cb83-4641-85c2-44c5ee4eb435.PNG)
+
+
 ### User Story 5. *CRUD pages Index page styling
 - For this story I was tasked with adding styling to Index page.
-- Utilizing bootstrap cards I styled the index page with superior styling and layout.  I also added links within font awesome icons on each card that would lead to the delete, update, or edit pages.  These icons only appear on hover.
+- Utilizing bootstrap cards I styled the index page with superior styling and layout.  I also added links within font awesome icons on each card that would lead to the delete, update, or edit pages.  These icons only appear on hover. (Index search bar was added in future story.)
 ![IndexAfter](https://user-images.githubusercontent.com/92835555/169740203-a1481ec7-3940-43bf-b1b1-d2ca82827860.PNG)
+
+### User Story 6.  *CRUD pages Details and Delete styling updates
+- I was tasked with improving the styling on the Delete and Details pages.
+- Created multiple color schemes to match mock up for unique look.
+- Added font awesome icon links to other CRUD pages
+(Details page)
+![DetailsLP2](https://user-images.githubusercontent.com/92835555/169930881-0354a5d3-9122-48f7-8b8e-7fdb76a6d60f.PNG)
+(Delete page)
 ![IndexSearch](https://user-images.githubusercontent.com/92835555/169740210-3f8471ee-45ab-4528-ac97-d0e45e9d1500.PNG)
 ![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
 ![ControllerIndex](https://user-images.githubusercontent.com/92835555/169740532-33a27e75-2064-4d34-9275-0e8f219449d4.PNG)
