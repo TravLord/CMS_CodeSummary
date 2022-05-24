@@ -54,7 +54,7 @@ Edit page after update (below)
 
 ### User Story 6.  *CRUD pages Details and Delete styling updates*
 - I was tasked with improving the styling on the Delete and Details pages.
-- Created multiple color schemes to match mock up for unique look.
+- Created multiple color schemes to match project color mock up for unique look.
 - Added font awesome icon links to other CRUD pages
 - Details page after update (below)
 ![DetailsLP2](https://user-images.githubusercontent.com/92835555/169930881-0354a5d3-9122-48f7-8b8e-7fdb76a6d60f.PNG)
@@ -64,7 +64,7 @@ Edit page after update (below)
 
 ### User Story 7. *Add search bar to index page*
 - I was tasked to give the user a search bar on the index page.
-- User was given ability to search an entity by using as a keyword some and/or all of the rental name or rental details.
+- User was given ability to search a rental record by using as a keyword some and/or all of the rental name or rental details.
 - All results that don't match the search criteria are hidden from view.
 - Additional logic added to index controller method
 
@@ -76,24 +76,24 @@ Additonal controller method logic (below)
 
 ### User Story 8. *Text helper word limit method*
 - For this story I was tasked in creating a text helper method for further use throughout the app.
--  This method will limit the amount of words printed to console and truncate the sentence with elipsis (...) at the end of the sentence.
+-  This method will limit the amount of words printed to console and truncate the sentence with elipsis (...) at the end of the last allowed word in the sentence.
 - Within the text helper class I added method logic to complete this task. (below)
 ![TextHelpersMethods2nd](https://user-images.githubusercontent.com/92835555/169887092-5667f8d9-8b6b-46cf-8c32-a17a594b1a2a.png)
 
 ### Other updates not included in user stories
 - updated edit controller to read and save new image to database
 - this gives the user the ability to edit and add new images within the specific record.
-- updated edit page with file based input and record image display. (below)
+- updated edit page with file based input and record image display for retrieval and display. (below)
 ![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
 
 ![EditUpdateLP2](https://user-images.githubusercontent.com/92835555/169928899-f9d4babf-33c7-496a-ba62-5f13c6a251b9.PNG)
 
 ## Overview of Project -
-- I completed 8 out of 2 user stories required to pass.  
+- I completed 8 out of the 2 user stories required to pass.  
 - Safely and accurately followed version control standards.  Daily master branch updates, commiting often and pushing only story requirements, resolved merge conflicts without effecting other team members
 - Updated project leader daily with current work, roadblocks, and shared future work plans.
 - Followed group naming conventions of CSS variables, classes and branch names for better project organization and cohesiveness.
 - Scaffolded and built 5 pages with styling, functionality and CSS layout matching previous website build and themes to create a astectically pleasing UI. 
+- Updated controller methods and created multiple helper methods that will be used throughout the entire program. 
 - Exponentially increased and solidified ASP.NET MVC concepts.
-- Created Helper methods that will be used throughout the entire program.
 - - Learned how to work on a project team, compartmentalize tasks to reduce conflicts and build off of eachothers strengths and weaknesses through sharing our journeys daily to improve overall performance. 
