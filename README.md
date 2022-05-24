@@ -1,4 +1,4 @@
-# VertigoTheatre CMS Code Summary -Travis Lord
+# Vertigo Theatre CMS Code Summary -Travis Lord
 
 ## This project was composed and consisted of the following:
 
