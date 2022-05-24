@@ -15,6 +15,7 @@
 
 ### User Story 2.  *Create model* 
 - This story I was tasked to create the model class for the rental photo section of the web app, after creating this model I scaffolded the CRUD pages with ADO.NET data entity model mapping and updating the database with the new schema. (Code below)
+- 
 ![ModelLiveProject2](https://user-images.githubusercontent.com/92835555/169889776-ccb315d2-5ebf-45b3-b4ac-8a2837c11905.PNG)
 
 ### User Story 3. * CRUD pages update create and edit pages with styling updates
@@ -40,8 +41,9 @@ Edit page after update (below)
 ![LiveProjectIndexBefore](https://user-images.githubusercontent.com/92835555/169738524-19cdc478-6e8a-4f5c-a6d1-55efb7a4ace6.PNG)
 - Controller create method (modified below)
 ![ControllerCreate](https://user-images.githubusercontent.com/92835555/169740541-c0b89b9c-cb83-4641-85c2-44c5ee4eb435.PNG)
-
-
+### User Story 5. *CRUD pages Index page styling
+- For this story I was tasked with adding styling to Index page.
+- Utilizing bootstrap cards I styled the index page with superior styling and layout.  I also added links within font awesome icons on each card that would lead to the delete, update, or edit pages.  These icons only appear on hover.
 ![IndexAfter](https://user-images.githubusercontent.com/92835555/169740203-a1481ec7-3940-43bf-b1b1-d2ca82827860.PNG)
 ![IndexSearch](https://user-images.githubusercontent.com/92835555/169740210-3f8471ee-45ab-4528-ac97-d0e45e9d1500.PNG)
 ![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
