@@ -20,10 +20,14 @@
 ### User Story 3. * CRUD pages update create and edit pages with styling updates
 
 - For this story I was tasked with updating the create and edit pages with styling updates to match the layout of the entire web app layout.  I updated these pages and changed the links into buttons for easy user navigation back to index page or to confirm/submit the form.  I also had to add a file based input to give user ability to choose a image file to add to their database from their machine. 
+- 
 ![LiveProject2CreatePgBefore](https://user-images.githubusercontent.com/92835555/169738489-65040c0f-697a-4963-9087-a136ed5e3191.PNG)
+
 Create page before update (above)
 Create page after update (below)
+
 ![CreateAfterUpdatesLP2](https://user-images.githubusercontent.com/92835555/169926934-e8ef67ed-739c-4203-835b-f04d0f724bfc.PNG)
+
 ![LiveProject2EditPgBefore](https://user-images.githubusercontent.com/92835555/169738513-f0ac2dc4-5fb2-406e-a908-76d55382d38c.PNG)
 Edit page before update (above)
 Edit page after update (below)
