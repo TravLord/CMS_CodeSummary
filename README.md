@@ -1,4 +1,4 @@
-# VertigoTheatreCMS_CodeSummary
+# VertigoTheatre CMS CodeSummary -Travis Lord
 
 ## This project was composed and consisted of the following:
 
@@ -40,18 +40,24 @@ Edit page after update (below)
 ![ControllerCreate](https://user-images.githubusercontent.com/92835555/169740541-c0b89b9c-cb83-4641-85c2-44c5ee4eb435.PNG)
 
 
-### User Story 5. *CRUD pages Index page styling
+### User Story 5. *CRUD pages Index page styling*
 - For this story I was tasked with adding styling to Index page.
 - Utilizing bootstrap cards I styled the index page with superior styling and layout.  I also added links within font awesome icons on each card that would lead to the delete, update, or edit pages.  These icons only appear on hover. (Index search bar was added in future story.)
 ![IndexAfter](https://user-images.githubusercontent.com/92835555/169740203-a1481ec7-3940-43bf-b1b1-d2ca82827860.PNG)
 
-### User Story 6.  *CRUD pages Details and Delete styling updates
+### User Story 6.  *CRUD pages Details and Delete styling updates*
 - I was tasked with improving the styling on the Delete and Details pages.
 - Created multiple color schemes to match mock up for unique look.
 - Added font awesome icon links to other CRUD pages
-(Details page)
+- 
+- Details page after update (below)
 ![DetailsLP2](https://user-images.githubusercontent.com/92835555/169930881-0354a5d3-9122-48f7-8b8e-7fdb76a6d60f.PNG)
-(Delete page)
+
+- Delete page after update (below)
+![DeleteLP2](https://user-images.githubusercontent.com/92835555/169931542-80208e75-7005-496c-ac4d-b765171626bd.PNG)
+
+
+
 ![IndexSearch](https://user-images.githubusercontent.com/92835555/169740210-3f8471ee-45ab-4528-ac97-d0e45e9d1500.PNG)
 ![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
 ![ControllerIndex](https://user-images.githubusercontent.com/92835555/169740532-33a27e75-2064-4d34-9275-0e8f219449d4.PNG)
