@@ -6,7 +6,7 @@
 - Web app was a CMS (content management system) for easy updates to their database without needing to have a tech background. 
 - 2 week sprint with 5 other developers
 - 10 daily stand up meetings and 2 code retrospectives with other devs and project leader.
-- Using Visual Studio with ASP.NET framework, C#, HTML , razor, CSS with bootstrap and font awesome icons, personal style sheets and javascript.
+- Using Visual Studio with ASP.NET framework, C#, HTML , Razor, CSS with bootstrap and font awesome icons, personal style sheets and javascript.
 - Database: SQL server Code first ADO.NET entity data model.
 - Utilized Azure DevOps for project structure and git for source control.
 
@@ -87,3 +87,13 @@ Additonal controller method logic (below)
 ![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
 
 ![EditUpdateLP2](https://user-images.githubusercontent.com/92835555/169928899-f9d4babf-33c7-496a-ba62-5f13c6a251b9.PNG)
+
+## Overview of Project -
+- I completed 8 out of 2 user stories required to pass.  
+- Safely and accurately followed version control standards.  Daily master branch updates, commiting often and pushing only story requirements, resolved merge conflicts without effecting other team members
+- Updated project leader daily with current work, roadblocks, and shared future work plans.
+- Followed group naming conventions of CSS variables, classes and branch names for better project organization and cohesiveness.
+- Scaffolded and built 5 pages with styling, functionality and CSS layout matching previous website build and themes to create a astectically pleasing UI. 
+- Exponentially increased and solidified ASP.NET MVC concepts.
+- Created Helper methods that will be used throughout the entire program.
+- - Learned how to work on a project team, compartmentalize tasks to reduce conflicts and build off of eachothers strengths and weaknesses through sharing our journeys daily to improve overall performance. 
