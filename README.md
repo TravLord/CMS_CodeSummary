@@ -76,7 +76,7 @@ Additonal controller method logic (below)
 
 ### User Story 8. *Text helper word limit method*
 - For this story I was tasked in creating a text helper method for further use throughout the app.
--  This method will limit the amount of words printed to console and produce elipsis (...) at the end of the sentence.
+-  This method will limit the amount of words printed to console and truncate the sentence with elipsis (...) at the end of the sentence.
 - Within the text helper class I added method logic to complete this task. (below)
 ![TextHelpersMethods2nd](https://user-images.githubusercontent.com/92835555/169887092-5667f8d9-8b6b-46cf-8c32-a17a594b1a2a.png)
 
