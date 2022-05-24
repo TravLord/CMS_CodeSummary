@@ -20,7 +20,9 @@
 
 ### User Story 3. *CRUD pages update create and edit pages with styling updates*
 
-- For this story I was tasked with updating the create and edit pages with styling updates to match the layout of the entire web app layout.  I updated these pages and changed the links into buttons for easy user navigation back to index page or to confirm/submit the form.  I also had to add a file based input to give user ability to choose a image file to add to their database from their machine. 
+- For this story I was tasked with updating the create and edit pages with styling updates to match the layout of the entire web app layout.  
+- I updated these pages and changed the links into buttons for easy user navigation back to index page or to confirm/submit the form. 
+-  I also added a file based input to give user ability to choose a image file to add to their database from their machine. 
 
 Create page after update (below)
 
@@ -32,7 +34,10 @@ Edit page after update (below)
 ### User Story 4. *Photo Image storage and retrieval*
 
 -  I was tasked to give the user ability to store and display the images they upload to their database.
--  For this I had to update the controller to take in and store images to the database.  All of these results were then displayed on the index page.  This required storing the image as a byte[] in the database.  Within the create method I utilized HttpPostedFileBase class to take in the user file as a parameter from the create form and used the binary reader class to produce a byte[] for storage to database.  For display on the index page the byte[] then had to be converted into a 64base string and combined in the img tag.  Index to display results (below without styling)
+-  For this I updated the controller to take in and store images to the database.  All of these results were then displayed on the index page.  
+-  This required storing the image as a byte[] in the database by adding additonal logic to create method.  
+-  Within the create method I utilized HttpPostedFileBase class to take in the user file as a parameter from the create form and used the binary reader class to produce a byte[] for storage to database.  
+-  For display on the index page the byte[] then had to be converted into a 64base string and combined in the img tag.  Index to display results (below without styling)
 -  
 ![LiveProjectIndexBefore](https://user-images.githubusercontent.com/92835555/169738524-19cdc478-6e8a-4f5c-a6d1-55efb7a4ace6.PNG)
 
@@ -49,17 +54,28 @@ Edit page after update (below)
 - I was tasked with improving the styling on the Delete and Details pages.
 - Created multiple color schemes to match mock up for unique look.
 - Added font awesome icon links to other CRUD pages
-- 
 - Details page after update (below)
 ![DetailsLP2](https://user-images.githubusercontent.com/92835555/169930881-0354a5d3-9122-48f7-8b8e-7fdb76a6d60f.PNG)
 
 - Delete page after update (below)
 ![DeleteLP2](https://user-images.githubusercontent.com/92835555/169931542-80208e75-7005-496c-ac4d-b765171626bd.PNG)
 
+### User Story 7. *Add search bar to index page*
+- I was tasked to give the user a search bar on the index page.
+- User was given ability to search an entity by using as a keyword some and/or all of the rental name or rental details.
+- All results that don't match the search criteria are hidden from view.
+- Additional logic added to index controller method
 
-
-![IndexSearch](https://user-images.githubusercontent.com/92835555/169740210-3f8471ee-45ab-4528-ac97-d0e45e9d1500.PNG)
-![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
+Additonal controller method logic (below)
 ![ControllerIndex](https://user-images.githubusercontent.com/92835555/169740532-33a27e75-2064-4d34-9275-0e8f219449d4.PNG)
 
+- Index search display (below)
+![IndexSearch](https://user-images.githubusercontent.com/92835555/169740210-3f8471ee-45ab-4528-ac97-d0e45e9d1500.PNG)
+
+### User Story 8. *Text helper word limit method*
+- For this story I was tasked in creating a text helper method for further use throughout the app.
+-  This method will limit the amount of words printed to console and produce elipsis (...) at the end of the sentence.
+- Within the text helper class I added method logic to complete this task. (below)
 ![TextHelpersMethods2nd](https://user-images.githubusercontent.com/92835555/169887092-5667f8d9-8b6b-46cf-8c32-a17a594b1a2a.png)
+
+![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
