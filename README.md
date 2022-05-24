@@ -5,7 +5,8 @@
 - Theatre Vertigo web app build. They are a portland based theatre company.
 - Web app was a CMS (content management system) for easy updates to their database without needing to have a tech background. 
 - 2 week sprint with 5 other developers
-- Using Visual Studio with ASP.NET framework, C#, HTML , CSS with bootstrap and font awesome icons, personal style sheets and javascript.
+- 10 daily stand up meetings and 2 code retrospectives with other devs and project leader.
+- Using Visual Studio with ASP.NET framework, C#, HTML , razor, CSS with bootstrap and font awesome icons, personal style sheets and javascript.
 - Database: SQL server Code first ADO.NET entity data model.
 - Utilized Azure DevOps for project structure and git for source control.
 
@@ -29,7 +30,8 @@ Create page after update (below)
 ![CreateAfterUpdatesLP2](https://user-images.githubusercontent.com/92835555/169926934-e8ef67ed-739c-4203-835b-f04d0f724bfc.PNG)
 
 Edit page after update (below)
-![EditUpdateLP2](https://user-images.githubusercontent.com/92835555/169928899-f9d4babf-33c7-496a-ba62-5f13c6a251b9.PNG)
+
+![LiveProject2EditpgAfter](https://user-images.githubusercontent.com/92835555/170103249-848adbfe-2015-4eaf-b566-d4bb43ec0fa2.PNG)
 
 ### User Story 4. *Photo Image storage and retrieval*
 
@@ -78,4 +80,10 @@ Additonal controller method logic (below)
 - Within the text helper class I added method logic to complete this task. (below)
 ![TextHelpersMethods2nd](https://user-images.githubusercontent.com/92835555/169887092-5667f8d9-8b6b-46cf-8c32-a17a594b1a2a.png)
 
+### Other updates not included in user stories
+- updated edit controller to read and save new image to database
+- this gives the user the ability to edit and add new images within the specific record.
+- updated edit page with file based input and record image display. (below)
 ![ControllerEdit](https://user-images.githubusercontent.com/92835555/169740525-f368d553-6132-4bef-89c9-62e7c9f14e3a.PNG)
+
+![EditUpdateLP2](https://user-images.githubusercontent.com/92835555/169928899-f9d4babf-33c7-496a-ba62-5f13c6a251b9.PNG)
