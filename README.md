@@ -5,14 +5,13 @@
 ## This project was composed and consisted of the following:
 
 - Theatre Vertigo web app build. They are a portland based theatre company.
-- Web app was a CMS (content management system) for easy updates to their database without needing to have a tech background. 
-- 2 week sprint with 5 other developers
-- Azure Devops for project managment
-- Discord for team communication
+- Web app was a CMS (content management system) for easy updates to their database without user needing to have a tech background. 
+- 2 week sprint with 5+ other developers.
+- Azure Devops for project managment.
+- Discord for team communication.
 - 10 daily stand up meetings and 2 code retrospectives with other devs and project leader.
-- Using Visual Studio with ASP.NET framework, C#, HTML , Razor, CSS with bootstrap and font awesome icons, personal style sheets and javascript.
-- Database: SQL server Code first ADO.NET entity data model.
-- Utilized Azure DevOps for project structure and git for source control.
+- Using Visual Studio with ASP.NET framework, C#, JavaScript, HTML, Razor, CSS with bootstrap, font awesome icons, personal style sheets, and built it asset stylesheets.
+- Database: SQL server Code first ADO.NET Entity Framework.
 
 ### User Story 1.  *Create text helper method*
 - I was tasked with the assignment to create a method that can limit the amount of characters in a word and truncate the end characters with elipsis (...)  (Code snippet below)
@@ -43,7 +42,7 @@ Edit page after update (below)
 -  For this I updated the controller to take in and store images to the database.  All of these results were then displayed on the index page.  
 -  This required storing the image as a byte[] in the database by adding additonal logic to create method.  
 -  Within the create method I utilized HttpPostedFileBase class to take in the user file as a parameter from the create form and used the binary reader class to produce a byte[] for storage to database.  
--  For display on the index page the byte[] then had to be converted into a 64base string and combined in the img tag.  Index to display results (below without styling)
+-  For display on the index page the byte[] then had to be converted into a 64base string and combined with the image HTML tag.  Below is Index displaying the results without styling. 
 -  
 ![LiveProjectIndexBefore](https://user-images.githubusercontent.com/92835555/169738524-19cdc478-6e8a-4f5c-a6d1-55efb7a4ace6.PNG)
 
