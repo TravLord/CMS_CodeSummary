@@ -7,6 +7,8 @@
 - Theatre Vertigo web app build. They are a portland based theatre company.
 - Web app was a CMS (content management system) for easy updates to their database without needing to have a tech background. 
 - 2 week sprint with 5 other developers
+- Azure Devops for project managment
+- Discord for team communication
 - 10 daily stand up meetings and 2 code retrospectives with other devs and project leader.
 - Using Visual Studio with ASP.NET framework, C#, HTML , Razor, CSS with bootstrap and font awesome icons, personal style sheets and javascript.
 - Database: SQL server Code first ADO.NET entity data model.
