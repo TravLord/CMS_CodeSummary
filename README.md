@@ -1,5 +1,7 @@
 # Vertigo Theatre CMS Code Summary -Travis Lord
 
+### This project was a 2 week internship through the company Prosper I.T Consulting
+
 ## This project was composed and consisted of the following:
 
 - Theatre Vertigo web app build. They are a portland based theatre company.
