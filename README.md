@@ -1,4 +1,4 @@
-# Vertigo Theatre CMS Code Summary -Travis Lord
+# Prosper I.T. Consulting Internship - Vertigo Theatre Content Management System Web App Code Summary
 
 ### 2 week internship through the company Prosper I.T Consulting
 
