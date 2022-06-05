@@ -15,6 +15,7 @@
 
 ### User Story 1.  *Create text helper method*
 - I was tasked with the assignment to create a method that can limit the amount of characters in a word and truncate the end characters with elipsis (...)  (Code snippet below)
+- In the future a developer could use this method to limit the amount of characters displayed by passing in a string for display and an integer (integer is amount of charcters allowed to display before word is limited with elipsis).
 ![TextHelpersMethods1st](https://user-images.githubusercontent.com/92835555/169886887-2c73c2c6-8abd-41db-824d-4930dc5b3f46.png)
 
 ### User Story 2.  *Create model* 
@@ -80,6 +81,7 @@ Additonal controller method logic (below)
 ### User Story 8. *Text helper word limit method*
 - For this story I was tasked in creating a text helper method for further use throughout the app.
 -  This method will limit the amount of words printed to console and truncate the sentence with elipsis (...) at the end of the last allowed word in the sentence.
+-  In the future a dev could use this method to pass in a string and a integer specifying the amount of words they want to display before the string is limited with elipsis.
 - Within the text helper class I added method logic to complete this task. (below)
 ![TextHelpersMethods2nd](https://user-images.githubusercontent.com/92835555/169887092-5667f8d9-8b6b-46cf-8c32-a17a594b1a2a.png)
 
