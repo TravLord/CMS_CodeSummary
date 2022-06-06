@@ -44,7 +44,7 @@ Edit page after update (below)
 -  This required storing the image as a byte[] in the database by adding additonal logic to create method.  
 -  Within the create method I utilized HttpPostedFileBase class to take in the user file as a parameter from the create form and used the binary reader class to produce a byte[] for storage to database.  
 -  For display on the index page the byte[] then had to be converted into a 64base string and combined with the image HTML tag.  Below is Index displaying the results without styling. 
--  
+ 
 ![LiveProjectIndexBefore](https://user-images.githubusercontent.com/92835555/169738524-19cdc478-6e8a-4f5c-a6d1-55efb7a4ace6.PNG)
 
 - Controller create method (modified below)
