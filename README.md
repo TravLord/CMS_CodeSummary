@@ -20,7 +20,7 @@
 
 ### User Story 2.  *Create model* 
 - This story I was tasked to create the model class for the rental photo section of the web app, after creating this model I scaffolded the CRUD pages with ADO.NET data entity model mapping and updating the database with the new schema. (Code below)
-- 
+
 ![ModelLiveProject2](https://user-images.githubusercontent.com/92835555/169889776-ccb315d2-5ebf-45b3-b4ac-8a2837c11905.PNG)
 
 ### User Story 3. *CRUD pages update create and edit pages with styling updates*
