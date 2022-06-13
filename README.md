@@ -43,25 +43,27 @@ Edit page after update (below)
 -  For this I updated the controller to take in and store images to the database.  All of these results were then displayed on the index page.  
 -  This required storing the image as a byte[] in the database by adding additonal logic to create method.  
 -  Within the create method I utilized HttpPostedFileBase class to take in the user file as a parameter from the create form and used the binary reader class to produce a byte[] for storage to database.  
--  For display on the index page the byte[] then had to be converted into a 64base string and combined with the image HTML tag.  Below is Index displaying the results without styling. 
+-  For display on the index page using Razor syntax I converted the byte[] into a 64base string combined with the image HTML tag.  
+-  Below is Index displaying the results without styling. 
  
 ![LiveProjectIndexBefore](https://user-images.githubusercontent.com/92835555/169738524-19cdc478-6e8a-4f5c-a6d1-55efb7a4ace6.PNG)
 
 - Controller create method (modified below)
 ![ControllerCreate](https://user-images.githubusercontent.com/92835555/169740541-c0b89b9c-cb83-4641-85c2-44c5ee4eb435.PNG)
 
+- Byte[] -> 64base string conversion Razor syntax
+
+![64baseStringViewConv](https://user-images.githubusercontent.com/92835555/173281857-fe8dac48-24ec-4271-8fc9-4627d4e49b7b.PNG)
+
 
 ### User Story 5. *CRUD pages Index page styling*
 - For this story I was tasked with adding styling to Index page.
-- Retrieving the image byte[] from the database and displaying the image to the view required the byte[] to be converted into a 64base string on the view using Razor syntax. 
 - Utilizing bootstrap cards I displayed all the database entities and styled the index page with superior styling and layout.  I also added links within font awesome icons on each card that would lead to 
 the delete, update, or edit pages.  These icons only appear on hover. (Index search bar was added in future story.)
 
 ![IndexAfter](https://user-images.githubusercontent.com/92835555/169740203-a1481ec7-3940-43bf-b1b1-d2ca82827860.PNG)
 
-Byte[] -> 64base string conversion Razor syntax
 
-![64baseStringViewConv](https://user-images.githubusercontent.com/92835555/173281857-fe8dac48-24ec-4271-8fc9-4627d4e49b7b.PNG)
 
 ### User Story 6.  *CRUD pages Details and Delete styling updates*
 - I was tasked with improving the styling on the Delete and Details pages.
