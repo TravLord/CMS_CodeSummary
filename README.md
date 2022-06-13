@@ -53,7 +53,7 @@ Edit page after update (below)
 
 ### User Story 5. *CRUD pages Index page styling*
 - For this story I was tasked with adding styling to Index page.
-- Utilizing bootstrap cards I styled the index page with superior styling and layout.  I also added links within font awesome icons on each card that would lead to the delete, update, or edit pages.  These icons only appear on hover. (Index search bar was added in future story.)
+- Utilizing bootstrap cards I displayed all the database entities and styled the index page with superior styling and layout.  I also added links within font awesome icons on each card that would lead to the delete, update, or edit pages.  These icons only appear on hover. (Index search bar was added in future story.)
 ![IndexAfter](https://user-images.githubusercontent.com/92835555/169740203-a1481ec7-3940-43bf-b1b1-d2ca82827860.PNG)
 
 ### User Story 6.  *CRUD pages Details and Delete styling updates*
