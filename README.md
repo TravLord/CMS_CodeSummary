@@ -11,7 +11,7 @@
 - Discord for team communication.
 - 10 daily stand up meetings and 2 code retrospectives with other devs and project leader.
 - Using Visual Studio with ASP.NET framework, C#, JavaScript, HTML, Razor, CSS with bootstrap, font awesome icons, personal style sheets, and asset stylesheets.
-- Database: SQL server Code first ADO.NET Entity Framework.
+- Database: SQL Server, Code first ADO.NET Entity Framework.
 
 ### User Story 1.  *Create text helper method*
 - I was tasked with the assignment to create a method that can limit the amount of characters in a word and truncate the end characters with elipsis (...)  (Code snippet below)
