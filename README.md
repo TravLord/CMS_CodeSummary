@@ -103,7 +103,7 @@ Additonal controller method logic (below)
 ![EditUpdateLP2](https://user-images.githubusercontent.com/92835555/169928899-f9d4babf-33c7-496a-ba62-5f13c6a251b9.PNG)
 
 ## Overview of Project -
-- I completed 8 out of the 2 user stories required to pass.  
+- completed 8 user stories.  
 - Safely and accurately followed version control standards.  Daily master branch updates, commiting often and pushing only story requirements, resolved merge conflicts without effecting other team members
 - Updated project leader daily with current work, roadblocks, and shared future work plans.
 - Followed group naming conventions of CSS variables, classes and branch names for better project organization and cohesiveness.
