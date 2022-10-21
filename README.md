@@ -2,6 +2,13 @@
 
 ### 2 week internship through Prosper I.T Consulting
 
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 ## This project was composed and consisted of the following:
 
 - Theatre Vertigo web app build. They are a portland based theatre company.
